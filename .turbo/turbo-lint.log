@@ -1,0 +1,11 @@
+ WARN  Issue while reading "/Users/mdikici/kikstein/typebot/packages/embeds/js/.npmrc". Failed to replace env in config: ${NPM_TOKEN}
+
+> @converseform.com/js@0.2.31 lint /Users/mdikici/kikstein/typebot/packages/embeds/js
+> eslint --fix "src/**/*.ts*"
+
+
+/Users/mdikici/kikstein/typebot/packages/embeds/js/src/components/InputChatBlock.tsx
+  70:17  warning  This function should be passed to a tracked scope (like createEffect) or an event handler because it contains reactivity, or else changes will be ignored  solid/reactivity
+
+✖ 1 problem (0 errors, 1 warning)
+
